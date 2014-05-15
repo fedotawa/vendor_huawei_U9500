@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/front/proprietary/bin/hostapd:system/bin/hostapd \
   vendor/huawei/front/proprietary/bin/load_oemlogo:system/bin/load_oemlogo
 
-
 # etc/firmware
 PRODUCT_COPY_FILES += \
   vendor/huawei/front/proprietary/etc/firmware/TIInit_10.6.15.bts:system/etc/firmware/TIInit_10.6.15.bts \
@@ -51,8 +50,6 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/front/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
   vendor/huawei/front/proprietary/lib/hw/lights.omap4.so:system/lib/hw/lights.omap4.so \
   vendor/huawei/front/proprietary/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so
-
-
 
 # /lib/modules
 PRODUCT_COPY_FILES += \
