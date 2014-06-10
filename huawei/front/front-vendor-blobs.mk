@@ -72,7 +72,6 @@ PRODUCT_COPY_FILES += \
   vendor/huawei/front/proprietary/lib/libexif_jni.so:system/lib/libexif_jni.so \
   vendor/huawei/front/proprietary/lib/libhuawei-audio-ril.so:system/lib/libhuawei-audio-ril.so \
   vendor/huawei/front/proprietary/lib/libion.so:system/lib/libion.so \
-  vendor/huawei/front/proprietary/lib/libjpeg.so:system/lib/libjpeg.so \
   vendor/huawei/front/proprietary/lib/libmm_osal.so:system/lib/libmm_osal.so \
   vendor/huawei/front/proprietary/lib/libtiutils.so:system/lib/libtiutils.so \
   vendor/huawei/front/proprietary/lib/libxgold-ril.so:system/lib/libxgold-ril.so
