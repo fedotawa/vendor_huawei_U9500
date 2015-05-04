@@ -22,8 +22,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/bin/atcmdserver:system/bin/atcmdserver \
     $(VENDOR_DIR)/bin/glgps:system/bin/glgps \
     $(VENDOR_DIR)/bin/gpslogd:system/bin/gpslogd \
-    $(VENDOR_DIR)/bin/hostapd:system/bin/hostapd \
-    $(VENDOR_DIR)/bin/load_oemlogo:system/bin/load_oemlogo
+    $(VENDOR_DIR)/bin/nvm_server:system/bin/nvm_server
 
 # etc/bluetooth
 PRODUCT_COPY_FILES += \
