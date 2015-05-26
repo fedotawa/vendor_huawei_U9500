@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/bin/Injection_nv:system/bin/Injection_nv \
     $(VENDOR_DIR)/bin/akmd8975:system/bin/akmd8975 \
     $(VENDOR_DIR)/bin/atcmdserver:system/bin/atcmdserver \
+    $(VENDOR_DIR)/bin/flash_oemlogo:system/bin/flash_oemlogo \
     $(VENDOR_DIR)/bin/glgps:system/bin/glgps \
     $(VENDOR_DIR)/bin/gpslogd:system/bin/gpslogd \
     $(VENDOR_DIR)/bin/nvm_server:system/bin/nvm_server
@@ -50,7 +51,7 @@ PRODUCT_COPY_FILES += \
 #/lib/hw
 PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/lib/hw/audio.hdmi.omap4.so:system/lib/hw/audio.hdmi.omap4.so \
-    $(VENDOR_DIR)/lib/hw/vendor-audio.primary.omap4.so:system/lib/hw/audio.primary_vendor.omap4.so \
+    $(VENDOR_DIR)/lib/hw/audio.primary_vendor.omap4.so:system/lib/hw/audio.primary_vendor.omap4.so \
     $(VENDOR_DIR)/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
     $(VENDOR_DIR)/lib/hw/lights.omap4.so:system/lib/hw/lights.omap4.so \
     $(VENDOR_DIR)/lib/hw/libbcmfm_if.so:system/lib/hw/libbcmfm_if.so \
@@ -60,6 +61,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(VENDOR_DIR)/lib/libaudience.so:system/lib/libaudience.so \
     $(VENDOR_DIR)/lib/libhuawei-audio-ril.so:system/lib/libhuawei-audio-ril.so \
+    $(VENDOR_DIR)/lib/liboeminf2.so:system/lib/liboeminf2.so \
     $(VENDOR_DIR)/lib/libril.so:system/lib/libril.so \
     $(VENDOR_DIR)/lib/libxgold-ril.so:system/lib/libxgold-ril.so
 
